@@ -3,7 +3,8 @@ package com.company;
 import junit.framework.Assert;
 
 /**
- * Created by INV-6179 on 02.03.2016.
+ *
+ * Testing class
  */
 public class MakKwakQueueTest {
 

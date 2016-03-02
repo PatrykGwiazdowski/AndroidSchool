@@ -19,9 +19,12 @@ public class MakKwakQueue {
     protected String getAllQuotes(){
         StringBuilder toPrint = new StringBuilder();
         for (int i = 1;i<=queueSize;i++){                   //iterate through all clients in queue
-            toPrint.append(i + "." +getQuote(i)+"\n");                      //print to screen current client quote
+            toPrint.append(i);
+            toPrint.append(".");
+            toPrint.append(getQuote(i));
+            toPrint.append("\n");                           //Bulid string for each client
         }
-        return toPrint.toString();
+        return toPrint.toString();                          //return string with quotes of all clients
     }
 
     /**
