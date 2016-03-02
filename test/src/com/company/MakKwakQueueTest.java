@@ -9,7 +9,7 @@ import junit.framework.Assert;
 public class MakKwakQueueTest {
 
     @org.junit.Test
-    public void testGetAllQuotes() throws Exception {
+    public void testGetAllQuotes() {
         MakKwakQueue queue = new MakKwakQueue(3);
         Assert.assertEquals("1.\n2.\n3.Mak\n",queue.getAllQuotes());
         queue = new MakKwakQueue(0);
